@@ -50,16 +50,6 @@ if (contactForm) {
   });
 }
 
-
-
-//home
-function handleClick(imageNumber) {
-  alert("You clicked on Image " + imageNumber);
-  // You can also redirect or open a modal instead of alert
-}
-
-
-
 //internship 
 function toggleDropdown() {
   const dropdown = document.getElementById('dropdown-content');
