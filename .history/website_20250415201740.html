@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pegasos - Portfolio</title>
+  <link rel="stylesheet" href="portfolio.css" />
+</head>
+<body>
+  
+  <nav class="navbar">
+    <!-- Logo as an image -->
+    <a href="/website.html" class="logo">
+      <img src="photos/logo.png" alt="Pegasos Logo" class="logo-img">
+    </a>
+  
+    <!-- Hamburger Button -->
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+  
+    <!-- Navigation List -->
+    <ul id="nav-list">
+      <li><a href="/about.html">About</a></li>
+      <li class="dropdown">
+        <a href="/services.html">Services ▾</a>
+        <div class="dropdown-content">
+          <a href="/E-mail Marketing.html">E-mail Marketing</a>
+          <a href="/Upselling & Cross-Selling.html">Upselling & Cross-Selling</a>
+          <a href="/Sales CRM.html">Sales CRM</a>
+          <a href="/Field Sales Automation.html">Field Sales Automation</a>
+        </div>
+      </li>
+      <li><a href="/industry.html">Industry</a></li>
+      <li><a href="/contact.html">Contact</a></li>
+    </ul>
+  </nav>
+  
+
+  </script>
+  
+  <!-- Home Section -->
+<section id="home" class="section">
+  <div class="bg-cover bg-center text-white py-[500px] hero-content min-h-screen w-full"
+       style="background-image: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOW45dnQ3aDVhd3F5M2hrbnB3MzF1NXNsNGNxZW5qY3RhMXIybno5eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l3q2RgN7WUjeUUXm0/giphy.gif');">
+       <div class="max-w-10xl mx-auto px-8 sm:px-9 lg:px-11 text-center">
+      <br>
+    <br>
+    <br>
+    <br><br>
+    <br>
+    
+        <h1 class="text-6xl sm:text-7xl font-bold mb-6">
+          Grow Your Business Faster Than Ever Before
+        </h1>
+       
+      <p class="text-lg sm:text-xl mb-10 max-w-5xl mx-auto">
+        Powerful CRM. Effortless Integration. Smart Business.
+      </p>
+
+      <!-- Image below paragraph -->
+      <img src="photos/home.png" 
+           alt="Business Growth Illustration"
+           class="mx-auto w-full max-w-md sm:max-w-lg md:max-w-xl rounded-lg shadow-lg">
+    </div>
+  </div>
+</section>
+
+
+<!-- Services Section -->
+
+<section id="services"
+class="py-16 bg-no-repeat bg-contain bg-center"
+>
+<h2>Solutions</h2>
+
+  <div class="flex flex-nowrap justify-center gap-12 overflow-x-auto px-5 items-end relative z-10">
+
+    <!-- 🔼 First icon -->
+    <a href="email-marketing.html">
+      <img src="photos/emailmarketing.png"
+           class="w-24 h-24 -mt-6 mb-4 hover:scale-110 transition-transform duration-300"
+           alt="Email Marketing">
+    </a>
+    
+
+    <!-- Mid icons -->
+    <a href="upselling.html">
+      <img src="photos/upselling.png"
+           class="w-24 h-24 mb-2 hover:scale-110 transition-transform duration-300"
+           alt="Upselling">
+    </a>
+
+    <a href="crm.html">
+      <img src="photos/crm.png"
+           class="w-24 h-24 mb-2 hover:scale-110 transition-transform duration-300"
+           alt="CRM">
+    </a>
+
+    <!-- 🔽 Last icon -->
+    <a href="field-sale.html">
+      <img src="photos/fieldsell.png"
+           class="w-24 h-24 mt-4 hover:scale-110 transition-transform duration-300"
+           alt="Field Sales">
+    </a>
+
+  </div>
+</section>
+
+</section>
+
+<!-- About Section -->
+<section id="about" class="section" style="display: flex; align-items: center; gap: 2rem;">
+  <!-- Left side text -->
+  <div style="flex: 1;">
+    <h2>Company</h2>
+    <p>
+      We empower businesses with smart and intuitive CRM solutions. Our AI-driven platform streamlines sales, marketing, and customer engagement for seamless growth. 
+      Designed for efficiency and ease, Pegasos helps teams automate workflows and boost productivity. 
+      Join us in transforming the way businesses connect, sell, and succeed.
+    </p>
+  </div>
+
+  <!-- Right side image -->
+  <div style="flex: 1;">
+    <img src="photos/company.png" alt="About Image" style="width: 100%; height: auto; border-radius: 10px;">
+  </div>
+</section>
+
+
+
+
+  <!-- industry -->
+ 
+<section id="industry" class="section" style="display: flex; align-items: center; gap: 2rem;">
+  <!-- Left side image -->
+  <div style="flex: 1;">
+    <img src="photos/happy man and website window in laptop@3x.png" alt="Industry Image" style="width: 100%; height: auto; border-radius: 10px;">
+  </div>
+
+  <!-- Right side content with buttons -->
+  <div style="flex: 2;">
+    <!-- Horizontal Button Group -->
+    <div class="button-container">
+  
+      <!-- WHO WE ARE Button -->
+      <button class="custom-btn" onclick="window.location.href='/about.html'">
+        <img src="photos/Group 211.png" alt="Icon" class="btn-icon" />
+        
+      </button>
+    
+      <!-- CAREER Button -->
+      <button class="custom-btn" onclick="window.location.href='/career.html'">
+        <img src="photos/Group 212.png" alt="Icon" class="btn-icon" />
+        
+      </button>
+    
+    </div>
+    
+
+  
+</section>
+
+
+
+<!-- Contact Section -->
+<div class="contact-section">
+  <div class="contact-container">
+
+    <!-- Left: Form Block -->
+    <div class="contact-wrapper contact-form-block">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required />
+
+        <label for="phone">Phone Number</label>
+        <div class="phone-input-box">
+          <select>
+            <option value="+1">+1 (USA)</option>
+            <option value="+44">+44 (UK)</option>
+            <option value="+91" selected>+91 (India)</option>
+            <option value="+61">+61 (Australia)</option>
+            <option value="+81">+81 (Japan)</option>
+          </select>
+          <input type="tel" placeholder="Enter your phone number" required />
+        </div>
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Enter your message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+   
+   <!-- Right Side: Image and Text Block -->
+<div class="contact-image-block">
+  <div class="contact-image-content">
+    <h3 class="success-heading">Your Success Starts Here</h3>
+    <p>Let’s collaborate and create something amazing</p>
+    <div class="image-row">
+    <img src="photos/wpf_speech-bubble.png" alt="Teamwork" class="contact-image" />
+    <img src="photos/Man Showing Smartphone.png" alt="Man Showing Smartphone" class="contact-image" />
+  </div>
+</div>
+</div>
+
+
+
+
+
+  <!-- Footer -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<footer class="footer mt-lg-7">
+  <div class="container-fluid footer-container">
+    <div class="row">
+      
+      <!-- Company Info -->
+      <div class="col-lg-4 col-md-6 col-sm-12 cmp mb-4">
+        <img src="photos/logo.png" alt="Pegasos Logo" />
+        <h4>Pegasos Information Technology and Services LLP</h4>
+        <h6>Get every single promotional & business update.</h6>
+      </div>
+
+    
+
+      <!-- Quick Links -->
+      <div class="col-lg-6 col-md-12 mt-lg-5 mt-3 px-lg-5 px-md-2 mb-3">
+        <h3 class="text-start">Quick Links</h3>
+        <div class="row ql d-flex justify-content-between">
+          <div class="col ql1 d-flex flex-column">
+            <a href="#">Home</a>
+            <a href="#">Company</a>
+            <a href="#">Who We Are</a>
+            <a href="#">Career</a>
+            <a href="#">Contact Us</a>
+          </div>
+          <div class="col ql2 d-flex flex-column">
+            <a href="#">Solution</a>
+            <a href="#">Industries</a>
+            <a href="#">Terms & Condition</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Help</a>
+          </div>
+        </div>
+      </div>
+
+         <!-- Mailbox -->
+         <div class="col-lg-5 col-md-6 col-sm-12 mb-4">
+          <div class="mailbox w-100">
+            <form method="POST" action="" class="d-flex align-items-center w-100 flex-wrap">
+              <input type="email" name="email" class="form-control flex-grow-1 mbox" placeholder="Mail Address" required>
+              <button type="submit" class="btn btn-primary ms-2 arrowb">➤</button>
+            </form>
+            <div class="alert alert-info mt-2" style="display: none;"></div>
+          </div>
+        </div>
+        
+      <!-- Contact Info -->
+      <div class="col-lg-6 col-md-12 mt-lg-5 mt-3 box">
+        <h3 class="text-start cont">Contacts</h3>
+        <a href="mailto:info@pegasos.in">info@pegasos.in</a>
+        <p>Bangalore, India</p>
+        <div class="iconsbox d-flex justify-content-start gap-3 mt-2">
+          <a href="https://www.linkedin.com/company/pegasos" target="_blank">
+            <i class="fab fa-linkedin linked-icon"></i>
+          </a>
+          <a href="https://wa.me/yourwhatsappnumber" target="_blank">
+            <i class="fab fa-whatsapp wp-icon"></i>
+          </a>
+          <a href="https://www.facebook.com/pegasos" target="_blank">
+            <i class="fab fa-facebook fb-icon"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="cp text-center mt-4">
+      © 2025 Pegasos. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
